@@ -1,0 +1,27 @@
+{
+  "name": "cs602-final-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+ "engines": {
+   "node": "v16.13.0",
+   "npm": "8.3.1"
+ },
+  "scripts": {
+    "client-install": "npm-install --prefix client",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "node server.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.3",
+    "nodemon": "^2.0.15",
+    "stripe": "^8.205.0",
+    "uuid": "^8.3.2"
+  }
+}

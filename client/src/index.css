@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Black Han Sans', sans-serif !important;
+  background-color: #fad585 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-link {
+  color: black !important;
+  font-size: 20px !important;
+  font-weight: bold !important;
+}
+
+.navbar-brand {
+  color: black !important;
+  font-family: 'Pacifico', cursive;
+  font-size: 25px !important;
+  font-weight: bold !important;
+}
+
+p {
+  margin-bottom: 0 !important;
+}
+
+h1{
+  font-size: 20px !important;
+  font-family: 'Pacifico', cursive;
+}
+
+h2{
+  font-size: 25px !important;
+  color: rgb(170, 0, 0) !important;
+}
+
+h3{
+  font-size:40px !important;
+}
+
+img {
+  height: 200px !important;
+  width: 200px !important;
+}
+
+.orderimg {
+  height: 80px !important;
+  width: 80px !important;
+}
+
+.modal-content {
+  width: 400px !important;
+  text-align: center !important;
+}
+
+.btn {
+  background-color: #faba85 !important;
+  font-weight: bold !important;
+}
+
+.flex-container{
+  display: flex !important;
+}
+
+.fa-plus {
+  color: blue !important;
+  margin: 3px !important;
+}
+
+.fa-minus {
+  color: blue !important;
+  margin: 3px !important;
+}
+
+.fa-trash {
+  color: red !important;
+}
+
+input {
+  margin-top: 10px !important;
+  box-shadow: none !important
+}
+
+.dropdown-menu {  
+  position: static;  
+  display: block;  
+  width: auto;  
+  margin: 4rem auto; 
+} 
+.dropdown-menu-macos {  
+  gap: .25rem;  
+  padding: .5rem; 
+  border-radius: .5rem; 
+}
+.dropdown-menu-macos .dropdown-item {  
+  border-radius: .25rem; 
+}
+
+.adminfunction {
+  padding: 10px !important;
+  background-color: white !important;
+}
+
+.adminfunction li {
+  list-style-type: none !important;
+  display: inline !important;
+}
+
+.adminfunction li a {
+  color: black !important;
+  padding: 20px;
+}
+
+td, th, tr {
+  text-align: left;
+}
