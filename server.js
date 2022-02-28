@@ -73,3 +73,10 @@ app.listen(port, () => {
     "Server Running on Port";
 });
 
+app.use(express.static(path.join(__dirname, 'client', 'build')))
+    // required to serve SPA on heroku production without routing problems; it will skip only 'api' calls
+    if (process.env.NODE_ENV === 'production') {
+      app.get(/^((?!(api)).)*$/, (req, res) => {
+        res.sendFile(path.join(__dirname, 'client/build', 'index.html'))
+      })
+    }
