@@ -56,8 +56,14 @@ img {
 }
 
 .modal-content {
-  width: 400px !important;
+  width: 350px !important;
   text-align: center !important;
+}
+
+.modal-dialog {
+  width: 350px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 .btn {
