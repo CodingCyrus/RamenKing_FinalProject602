@@ -10,17 +10,17 @@ export default function Navbar() {
     return (
         <div>
             <nav className="navbar navbar-expand-md navbar-light bg-light shadow-sm p-3 mb-5 bg-white rounded">
-
+             <div class="container-fluid">
                 <a className="navbar-brand " href="/">RAMEN KING 🍜</a>
 
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
-                <div className="navbar-collapse collapse" id="#collapsibleNavbar">
+                <div className="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul className="navbar-nav ms-auto">
 
-                        {currentUser ? (
+                    {currentUser ? (
                             <div className="dropdown mt-2">
                                 <a style={{color:"brown"}} type="button" className="dropdown-toggle" data-bs-toggle="dropdown">
                                     {currentUser.name}
@@ -35,7 +35,7 @@ export default function Navbar() {
                         <li className="nav-item"><a className="nav-link" href="/order">Order {orderstate.orderItems.length}</a></li>
                     </ul>
                 </div>
-
+             </div>                
             </nav>
 
         </div>
