@@ -1,9 +1,9 @@
 # RamenKing Online Restaurant CRUD Application
 https://ramenking-cs602.herokuapp.com/
 
-Demo online restuarant application where customers can add to their order food items from the restaurant menu and pay for the order via Stripe.
-Users that register and login with their account can manage their order history.
-In addition, there is a seperate admin account to manage customer orders in addition to modifying menu items and inventory.
+Demo online restaurant application where customers can add to their order food items from the online menu and pay for the orders via Stripe.
+Users that register and login with their account information can manage their order history for reference..
+There is also a seperate admin account to manage/cancel customer orders and modify future menu items and inventory.
 
 ## Technology Used
 - React.js
